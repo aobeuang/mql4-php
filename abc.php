@@ -3,11 +3,11 @@
 $rawdata = file_get_contents('php://input');
 //$rawdata = "2017.04.12 09:53,1.06092,1.06095,4205,232323,2323,32323,2323,2323, 2017.04.13 10:22,29292,2323,2323,2323";
 
-$servername = "localhost";
-$username = "root";
-$password = "";
+$servername = "us-cdbr-iron-east-02.cleardb.net";
+$username = "bbc5f1f2834996";
+$password = "e5aada54";
 // Create connection
-$conn = new mysqli($servername, $username, $password, "ticks");
+$conn = new mysqli($servername, $username, $password, "heroku_8f3e57c81578b20");
 // Check connection
 if ($conn->connect_error) 
 {

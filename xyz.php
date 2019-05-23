@@ -1,11 +1,11 @@
 <?php
 
-$servername = "localhost";
-$username = "root";
-$password = "";
+$servername = "us-cdbr-iron-east-02.cleardb.net";
+$username = "bbc5f1f2834996";
+$password = "e5aada54";
 
 // Create connection
-$conn = new mysqli($servername, $username, $password, "ticks");
+$conn = new mysqli($servername, $username, $password, "heroku_8f3e57c81578b20");
 
 // Check connection
 if ($conn->connect_error) {
